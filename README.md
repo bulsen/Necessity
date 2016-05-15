@@ -29,7 +29,7 @@ i didn't added comenting so just be simple as this file, this is a basic file bi
 b : birds
 m : mammals
 s : spacecrafts
-`#types : [*]` 
+#types : [*]
 ```
 and this little buddy `#types: [*]` tells the program we'd like to index all types which opencv supports. you can select specific file formats from this array:
 	`[ bmp, dib, jpeg, jpg, jpe, jp2, png, pbm, pgm, ppm, sr, ras, tiff, tif ]`
@@ -42,7 +42,8 @@ and that should be written like `#types: [jpg, png, ppm ]` the examples may be p
 - opencv 2.4.6
 - >cv2 for python
 
-i used opencv because i know it better than matplotlib or Pillow(sarcasm) also i am too lazy for pillow and tkinter. so `semper fidelis opencvis` (latin puns!)
+i used opencv because i know it better than matplotlib or Pillow(sarcasm) also i am too lazy for pillow and tkinter.
+so `semper fidelis opencvis`
 
 there is a simple install script for ubuntu 16.04 after you install opencv.
 ```
